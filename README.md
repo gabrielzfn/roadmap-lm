@@ -37,6 +37,6 @@ It does not aim to replace specific standards or technical guides, but to comple
 
 Some key normative bases considered in this roadmap include:
 
-- ISO/IEC 17025 — General requirements for the competence of testing and calibration laboratories
-- IEC 61508 — Functional safety of electrical/electronic/programmable systems
-- WELMEC 7.2 — Software guide for measuring instruments
+- **ISO/IEC 17025** — General requirements for the competence of testing and calibration laboratories
+- **IEC 61508** — Functional safety of electrical/electronic/programmable systems
+- **WELMEC 7.2** — Software guide for measuring instruments
