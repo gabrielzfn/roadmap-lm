@@ -33,6 +33,12 @@ It does not aim to replace specific standards or technical guides, but to comple
 
 <br>
 
+### 🧰 Tools Directory
+
+This repository also includes a dedicated directory containing tools that may be useful during software analysis, testing, or documentation review. These tools should be introduced gradually over time. Therefore, please be patient.
+
+<br>
+
 ### 🔍 References
 
 Some key normative bases considered in this roadmap include:
