@@ -37,6 +37,19 @@ It does not aim to replace specific standards or technical guides, but to comple
 
 This repository also includes a dedicated directory containing tools that may be useful during software analysis, testing, or documentation review. These tools should be introduced gradually over time. Therefore, please be patient.
 
+```mermaid
+roadmap-lm
+├── README.md
+└── Tools
+    ├── comparador
+    │   └── comparador.sh
+    ├── tv-box
+    │   └── tv-box.sh
+    └── vsw-tools
+        └── vsw-tools
+```
+
+
 <br>
 
 ### 🔍 References
