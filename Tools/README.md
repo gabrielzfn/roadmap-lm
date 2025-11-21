@@ -21,10 +21,11 @@ Script desenvolvido para comparação recursiva entre diretórios/pastas, identi
 
 ### Uso
 - Execute o script com o seguinte comando:
-    ```bash
+
+```bash
     python comparador.py
 ```
-```
+
 - Escolher o pacote antigo e o pacote atualizado via interface gráfica.
 
 ---
