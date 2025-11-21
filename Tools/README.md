@@ -16,7 +16,7 @@ roadmap-lm
 
 <br>
 
-## 🔎 C0mparad0r 📁
+- ## 🔎 C0mparad0r 📁
 Script desenvolvido para comparação recursiva entre diretórios/pastas, identificando possíveis mudanças realizadas.
 
 ### Uso
@@ -29,7 +29,7 @@ Script desenvolvido para comparação recursiva entre diretórios/pastas, identi
 
 ---
 
-## 📺 Script de Ensaios Funcionais em TV-Box
+- ## 📺 Script de Ensaios Funcionais em TV-Box
 
 ### Descrição
 
@@ -57,7 +57,7 @@ Script que executa verificações essenciais para procedimentos de ensaio, inclu
 
 --- 
 
-# VSW-Tools - Ensaios de Metrologia e Segurança Cibernética 
+- ## VSW-Tools - Ensaios de Metrologia e Segurança Cibernética 
 
 > Um canivete suíço para automação de tarefas do laboratório de Verificação de Software do LABELO.
 
