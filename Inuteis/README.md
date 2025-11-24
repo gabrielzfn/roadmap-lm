@@ -1,5 +1,6 @@
 # Inuteis
 
- Repositório com scripts "gambiarras" ou incompletos.
+
+- ## Repositório com scripts gambiarras / incompletos.
 
 
