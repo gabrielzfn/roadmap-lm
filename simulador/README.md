@@ -23,4 +23,8 @@ Para testar o simulador é fundamental utilizar o emulador de terminal "tmux" no
   - `ctrl + b` + `"` é o comando utilizado para splitar a tela horizontalmente.
   > para navegar entre as sessões, utilize `ctrl + b` + `right arrow` ou a direção da sessão que você quer ir`
 
+### Demonstração do setup
 
+- **`tmux - wsl - socat`**
+
+<img width="1819" height="840" alt="print_setup_tmux_simulador_medidor" src="https://github.com/user-attachments/assets/3565c7cd-3ff8-4892-b1d1-1ce25f6ed3ee" />
