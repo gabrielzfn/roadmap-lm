@@ -1,3 +1,12 @@
+"""
+Script para comparação linha a linha de arquivos e comparação recursiva de diretórios. LABELO / VSW  
+Author: FelipeArnt
+Date: 02/12/2025
+Version: 2.0
+
+"""
+
+
 import difflib
 import sys
 import time
@@ -209,3 +218,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
