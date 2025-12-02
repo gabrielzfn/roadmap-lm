@@ -15,12 +15,12 @@
 
 ### Setup utilizado para testes
 
-Para testar o simulador é fundamental utilizar o emulador de terminal "tmux" no wsl ou wsl2.
+Para testar o simulador é fundamental utilizar o emulador de terminal "tmux" no wsl ou wsl2 e socat para a criação da comunicação serial ficticía.
 
 - Após a instalação do tmux e do wsl2, temos alguns atalhos importantes para dividir as sessões do terminal na mesma janela, os mesmos podem ser visualizados abaixo:
   - `tmux` é o comando utilizado para iniciar o emulador;
   - `ctrl + b` + `%` é o comando utilizado para splitar a tela verticalmente;
   - `ctrl + b` + `"` é o comando utilizado para splitar a tela horizontalmente.
-    > para navegar entre as sessões, utilize `ctrl + b` + `right arrow` ou a direção da sessão que você quer ir`
+  > para navegar entre as sessões, utilize `ctrl + b` + `right arrow` ou a direção da sessão que você quer ir`
 
 
