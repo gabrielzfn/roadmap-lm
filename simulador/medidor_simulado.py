@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 import serial
-import time
 import random
 
-ser = serial.Serial('/tmp/ttyMedidor', 9600, timeout=1)
+ser = serial.Serial("/tmp/ttyMedidor", 9600, timeout=1)
 print("[MEDIDOR] Aguardando comandos...")
 
 while True:
-    linha = ser.readline().decode(errors='ignore').strip()
+    linha = ser.readline().decode(errors="ignore").strip()
     if not linha:
         continue
     print(f"[MEDIDOR] Recebido: {linha}")
