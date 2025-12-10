@@ -1,6 +1,6 @@
 #!/usr/bin/env Python3
 """
-Script para comparação linha a linha de arquivos e comparação recursiva de diretórios. LABELO / VSW  
+Script para comparação recursiva de diretórios. LABELO / VSW  
 Author: FelipeArnt
 Date: 02/12/2025
 Version: 2.0
