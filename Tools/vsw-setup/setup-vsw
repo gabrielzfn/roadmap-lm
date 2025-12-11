@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Script para setup de ferramentas de Metrologia Legal/Anatel - VSW
+
+setup() {
+  local urls_file="urls.txt"
+  # 1. Verifica se o comando git existe no sistema
+  if ! command -v git &>/dev/null; then
+    echo "ERRO: O comando 'git' não foi encontrado. Por favor, instale o Git e tente novamente."
+    exit 1
+  fi
+  # 2. Verifica se o arquivo de URLs existe
+  if [ ! -f "$urls_file" ]; then
+    echo "ERRO: O arquivo '$urls_file' não foi encontrado no diretório atual."
+    echo "Por favor, crie este arquivo com as URLs dos repositórios, uma por linha."
+    exit 1
+  fi
+
+  echo 'Iniciando download das ferramentas...'
+  # 3. Lê o arquivo linha por linha
+  while IFS= read -r url || [ -n "$url" ]; do
+    # 4. Ignora linhas em branco ou comentários (que começam com #)
+    if [[ -z "$url" || "$url" == \#* ]]; then
+      continue
+    fi
+    echo "-----------------------------------------------------"
+    echo "Clonando: $url"
+    # 5. Executa o git clone e verifica se houve erro
+    if git clone "$url"; then
+      echo "Sucesso: Repositório clonado com êxito."
+    else
+      echo "AVISO: Falha ao clonar o repositório $url. Verifique a URL ou sua conexão."
+    fi
+    echo "-----------------------------------------------------"
+    echo
+  done <"$urls_file"
+
+  echo "Setup finalizado!"
+}
+# Chama a função para iniciar o processo de setup
+setup
+sudo apt update && sudo apt full-upgrade -y
+sudo apt install cppcheck neovim python3.13 gdb gcc build-essential nmap wget curl git cpputest clang clangd clang-format lld -y
