@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 
 
-# Função para notificar o horário do
+# Função para notificar o horário do ponto da volta.
 def notificar_ponto():
     notification.notify(title=title, message=message, timeout=duration)
 
