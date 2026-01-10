@@ -6,7 +6,7 @@ import time
 
 ser = serial.Serial("/tmp/ttyHost", 9600, timeout=2)
 
-for i in range(5):
+for i in range(20):
     ser.write(b"LEITURA\n")
     print("[SENDER] Comando LEITURA enviado")
     resposta = ser.readline().decode(errors="ignore").strip()
