@@ -106,36 +106,6 @@ vsw > tvbox
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```
-vsw-shell/
-├── README.md
-├── LICENSE
-├── config-vsw-shell.sh
-├── src/
-│   ├── vsw.c              # Lógica principal da shell
-│   ├── utils.c            # Wrappers + sanitização C
-│   └── vsw.h              # Headers
-├── src-sh/
-│   ├── security.sh        # 🔒 Biblioteca de segurança
-│   ├── build.sh           # Compilação
-│   ├── clean.sh           # Limpeza
-│   ├── router.sh          # Auditoria de roteadores
-│   ├── tvbox.sh           # Auditoria de TV-BOX
-│   └── vsw-tools.sh       # Canivete suíço
-├── src-py/
-│   ├── comparador.py      # Comparação de dados
-│   ├── autometro.py       # Automação de ensaios
-│   ├── differ.py          # Diff de arquivos
-│   ├── tablelo.py         # Geração de tabelas
-│   └── requisitos.txt     # Dependências Python
-└── docs/
-    └── CONTRIBUTING.md    # (recomendado criar)
-```
-
----
-
 ## 🔒 Detalhes de Segurança
 
 ### Sanitização em C (src/utils.c)
