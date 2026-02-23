@@ -1,4 +1,4 @@
-# AutoMetro
+#!/usr/bin/env python3
 import pyautogui  # type: ignore
 import time
 import json
