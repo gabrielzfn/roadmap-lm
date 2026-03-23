@@ -6,7 +6,7 @@ void tempo(){
   time(&tempo_bruto);
   struct tm *data_hora = localtime(&tempo_bruto);
 
-  printf("Registro do ponto do dia: %02d/%02d/%04d\n", 
+  printf("Registro do ponto do dia: \n%02d/%02d/%04d\n", 
          data_hora->tm_mday,
          data_hora->tm_mon + 1,
          data_hora->tm_year + 1900);
